@@ -59,6 +59,17 @@ Tenemos que estar en la carpeta que contiene el archivo *docker-compose.yml* y h
 
 **$** `docker-compose down`  
 
+### 7. Crear un Usuario Administrador en Django
+Para iniciar sesión en el sitio de administración, necesitamos una cuenta de usuario con estado de Personal habilitado. 
+Para ver y crear registros tambien necesitamos que este usuario tenga permisos para administrar todos nuestros objetos. 
+Puedes crear una cuenta "administrador" que tenga acceso total al sitio y a todos los permisios necesarios usando manage.py.
+
+Usa el siguiente comando, en el mismo directorio de manage.py, para crear al administrador. Deberás ingresar un nombre de usuario, dirección email, y una contraseña fuerte.
+
+**$** 'python manage.py createsuperuser'
+
+Para iniciar sesión en el sitio, ve a la URL /admin (e.j. http://localhost:8000/admin) e ingresa tus credenciales de id usuario y contraseña de administrador
+
 ---
 # Consultas
 ingjesusgonzalez@yahoo.com.ar
