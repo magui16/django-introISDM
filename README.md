@@ -19,7 +19,7 @@ Siempre en el mismo directorio del archivo *docker-compose.yml*
 
 Para el caso de este ejemplo:
 
-**$** `docker exec -i -t prueba_django bash`
+**$** `docker exec -i -t prueba_djangoISDM bash`
 
 Nos va a devolver a nuestra consola, una consola dentro del contenedor de software.
 
