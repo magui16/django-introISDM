@@ -66,7 +66,7 @@ Puedes crear una cuenta "administrador" que tenga acceso total al sitio y a todo
 
 Usa el siguiente comando, en el mismo directorio de manage.py, para crear al administrador. Deberás ingresar un nombre de usuario, dirección email, y una contraseña fuerte.
 
-**$** 'python manage.py createsuperuser'
+**$** `python manage.py createsuperuser`
 
 Para iniciar sesión en el sitio, ve a la URL /admin (e.j. http://localhost:8000/admin) e ingresa tus credenciales de id usuario y contraseña de administrador
 
