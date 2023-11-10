@@ -6,7 +6,7 @@ services:
     # Imágen a utilizar:
     image: python:3.9.5
     # Nombre del container:
-    container_name: prueba_django
+    container_name: prueba_djangoISDM
     # Comportamiento ante fallos y al iniciar el sistema:
     restart: always
     # Carpetas enlazadas:
