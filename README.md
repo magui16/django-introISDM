@@ -72,6 +72,8 @@ Para iniciar sesión en el sitio, ve a la URL /admin (e.j. http://localhost:8000
 
 ---
 # Consultas
-ingjesusgonzalez@yahoo.com.ar
+
+ingjesusmrgonzalez@gmail.com
+
 Cel:3875798701
 
